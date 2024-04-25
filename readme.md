@@ -39,3 +39,24 @@
 # Contribute
 
 - If you have any suggestions of npm packages contribute on this repo.
+
+
+
+
+- vercel config
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "./index.js",
+            "use": "@vercel/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/",
+            "methods": ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"]
+        }
+    ]
+} 
