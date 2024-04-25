@@ -43,7 +43,7 @@
 
 
 
-- vercel config
+- vercel config :
 {
     "version": 2,
     "builds": [
@@ -60,3 +60,7 @@
         }
     ]
 } 
+
+
+## free image and website style 
+[free website](https://bootcamp.uxdesign.cc/free-images-and-resources-collection-for-website-c77f2fc46ce5)
